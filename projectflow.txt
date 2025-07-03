@@ -27,6 +27,39 @@ ERROR:  output 'data' is already tracked by SCM (e.g. Git).
 
 9.Again we do "dvc data/" (creates data.dvc) then "git add .gitignore data.dvc"
 
+10. Now "dvc commit" and then "dvc push"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
