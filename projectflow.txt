@@ -29,8 +29,9 @@ ERROR:  output 'data' is already tracked by SCM (e.g. Git).
 
 10. Now "dvc commit" and then "dvc push"
 
+11. Now make change to the mycode.py to append a new row in data,check changes via "dvc status"
 
-
+12. Again -- "dvc commit" and then "dvc push"
 
 
 
