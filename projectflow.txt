@@ -33,6 +33,10 @@ ERROR:  output 'data' is already tracked by SCM (e.g. Git).
 
 12. Again -- "dvc commit" and then "dvc push"
 
+13. then git add -commit-push ( we 're saving V2 of our data at this point)
+
+14. check Dvc/git status, everything should be upto data.
+
 
 
 
