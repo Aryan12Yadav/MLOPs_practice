@@ -1,2 +1,36 @@
 1.create git repo and clone it in local.
+
 2. create mycode.py and add code toit . (it will save a csv file to a new "data" folder)
+
+3. Do a git add -commit-push beore initializing dvc.
+
+4. pip install dvc
+
+5. Now we do"dvc init" (creates .dvcignore,.dvc)
+
+6. Now do "mkdir S3" (creates a new S3 directory)
+
+7. Now we do "dvc remote add -d myremote S3" - Setting 'myremote' as a default remote.
+
+
+
+8. Next "dvc add data/" -> ab versioning ke liye responsible ho
+dvc add data/
+Adding...                                      
+ERROR:  output 'data' is already tracked by SCM (e.g. Git).
+    You can remove it from Git, then add to DVC.
+        To stop tracking from Git:
+            git rm -r --cached 'data'
+            git commit -m "stop tracking data"
+
+
+
+9.Again we do "dvc data/" (creates data.dvc) then "git add .gitignore data.dvc"
+
+
+
+
+
+
+
+
